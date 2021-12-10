@@ -76,6 +76,9 @@ position: absolute;
 .icon{
     width: 60px;
 }
+.description{
+    font-size: 1rem;
+}
 .error{
     text-align: center;
     display: block;
