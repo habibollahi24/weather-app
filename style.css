@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+}
+h1{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+}
+
+#form{
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: rgb(36, 18, 18);
+    align-items: center;
+}
+input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #ccc;
+}
+button{
+    border: none;
+    background-color: tomato;
+    padding: .5rem;
+    border-radius: 5px;
+
+}
+#list{
+
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    
+
+}
+.section{
+    background-color: rgb(230, 230, 230);
+    width: 300px;
+    margin:  2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px , 5px 5px 10px #ccc;
+}
+.name :first-child{
+    color: #333;
+    font-size: 2rem;
+    position: relative;
+}
+.name :last-child {
+color: whitesmoke;
+display: inline-block;
+background-color: rgb(255, 132, 132);
+padding: 5px;
+border-radius: 50%;
+position: absolute;
+}
+.degre{
+    font-size: 5rem;
+    color: #333;
+}
+.icon{
+    width: 60px;
+}
+.error{
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    font-size: 1.3rem;
+    color: tomato;
+    font-weight: bold;
+    
+
+}
